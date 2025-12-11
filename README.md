@@ -60,7 +60,7 @@ Key insights from the EDA:
 
 * Boxplots and bar charts highlighted clear behavioral differences between churned and non-churned customers.
 
-8 Outliers were examined but retained, as they represent genuine real-world behavior.
+* Outliers were examined but retained, as they represent genuine real-world behavior.
 
 EDA visuals include:
 
