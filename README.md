@@ -162,6 +162,8 @@ Churn probability: 0.999
 📚 Project Structure
 telecom-churn-xgboost-shap/
 
+├── Churn Project Presentation.pptx
+
 ├── Churn Project.pdf
 
 ├── README.md
