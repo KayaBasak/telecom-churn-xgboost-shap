@@ -2,15 +2,13 @@
 
 Predicting customer churn using machine learning, interpretability, and real-world telecom behavioral data.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on predicting customer churn using a real-world dataset from an Iranian telecommunications company. The analysis includes exploratory data analysis (EDA), machine learning model development, hyperparameter tuning, and interpretability using SHAP. The goal is to identify key drivers of churn and provide actionable insights that telecom providers can use to improve customer retention.
 
 The project was developed using Microsoft Azure Machine Learning, Python, XGBoost, and scikit-learn.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-📁 Dataset Description
+## 📁 Dataset Description
 
 Dataset: https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset 
 
@@ -46,9 +44,7 @@ The dataset contains 3150 customers and 13 features, including:
 
 The features represent customer demographics, usage patterns, and service experience—ideal for churn prediction modeling.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🔍 Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 Key insights from the EDA:
 
@@ -74,13 +70,11 @@ EDA visuals include:
 
 * Usage comparisons
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🤖 Machine Learning Models
+## 🤖 Machine Learning Models
 
 Two models were implemented and compared:
 
-1️⃣ Logistic Regression (Baseline Model)
+### 1️⃣ Logistic Regression (Baseline Model)
 
 * Simple, interpretable binary classifier
 
@@ -90,7 +84,7 @@ Two models were implemented and compared:
 
 * Useful for benchmarking performance
 
-2️⃣ XGBoost Classifier (Final Model)
+### 2️⃣ XGBoost Classifier (Final Model)
 
 * Handles nonlinear relationships and outliers effectively
 
@@ -100,9 +94,7 @@ Two models were implemented and compared:
 
 * Used as the final model for predictions and SHAP interpretability
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-📈 Model Performance
+## 📈 Model Performance
 	
 <img width="602" height="80" alt="image" src="https://github.com/user-attachments/assets/31e351c6-0395-4e5d-b046-26af8bdf326f" />
 
@@ -110,11 +102,11 @@ Two models were implemented and compared:
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🧠 Model Interpretability with SHAP
+## 🧠 Model Interpretability with SHAP
 
 To understand why the model predicts churn, SHAP (SHapley Additive exPlanations) was used.
 
-Key findings:
+### Key findings:
 
 * Customer complaints, subscription length, frequency of use, and seconds of use were among the strongest predictors of churn.
 
@@ -124,9 +116,7 @@ Key findings:
 
 SHAP ensures the model is explainable and trustworthy.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🔮 Predicting Churn for New Customers
+## 🔮 Predicting Churn for New Customers
 
 The project includes a prediction function that allows users to input new customer data and receive:
 
@@ -134,14 +124,12 @@ The project includes a prediction function that allows users to input new custom
 
 * Probability of churn
 
-Example output:
+### Example output:
 
 Predicted class: 1  
 Churn probability: 0.999  
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 * Python
 
@@ -157,9 +145,8 @@ Churn probability: 0.999
 
 * Matplotlib
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 📚 Project Structure
 
-📚 Project Structure
 telecom-churn-xgboost-shap/
 
 ├── Churn Project Presentation.pptx
@@ -170,11 +157,18 @@ telecom-churn-xgboost-shap/
 
 ├── churn_project.ipynb
 
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-📝 Conclusion
+## 📝 Conclusion
 
 The project demonstrates that machine learning can effectively predict customer churn and identify key behavioral drivers such as low usage, short subscription length, complaints, and low customer value. XGBoost delivered the strongest performance, while SHAP provided valuable interpretability for understanding model decisions. These insights can support telecom providers in designing targeted retention strategies.
 
 Future work may include adding temporal features, cost-sensitive learning, or deploying the model as an API.
+
+## 👤 Author
+
+Basak Kaya
+
+MEng – Mechanical & Industrial Engineering
+
+University of Toronto
+
+Specialization: Data Analytics & Machine Learning
