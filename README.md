@@ -10,6 +10,12 @@ This project focuses on predicting customer churn using a real-world dataset fro
 
 The project was developed using Microsoft Azure Machine Learning, Python, XGBoost, and scikit-learn.
 
+## 📖 Blog Post
+
+For a detailed walkthrough of the analysis, modeling decisions, and interpretability results, see the accompanying Medium article:
+
+[![Medium](https://img.shields.io/badge/Medium-Read%20Article-black?logo=medium)](https://medium.com/@bskky001/telecom-customer-churn-prediction-with-xgboost-and-shap-099bcd568e38)
+
 ## 📁 Dataset Description
 
 Dataset: https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset 
