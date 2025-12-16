@@ -1,6 +1,8 @@
 # PREDICTING CUSTOMER CHURN IN TELECOMMUNICATIONS USING LOGISTIC REGRESSION AND XGBOOST 
 
-Predicting customer churn using machine learning, interpretability, and real-world telecom behavioral data.
+This project applies machine learning techniques to predict customer churn in the telecommunications industry using behavioral, service-related, and demographic data. The goal is to evaluate the effectiveness of a baseline Logistic Regression model and a more advanced XGBoost classifier, and to interpret model predictions using SHAP in order to identify the key drivers of churn.
+
+This work was completed as the final project for MIE1628: Cloud-Based Data Analytics at the University of Toronto. The project was completed individually and includes exploratory data analysis, model development, performance evaluation, interpretability analysis, and a final report documenting the methodology, results, and insights.
 
 ## 📌 Project Overview
 
@@ -46,7 +48,7 @@ The features represent customer demographics, usage patterns, and service experi
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-Key insights from the EDA:
+### Key insights from the EDA:
 
 * Churned customers tend to have lower usage, fewer distinct contacts, shorter subscription lengths, and lower customer value.
 
@@ -58,9 +60,15 @@ Key insights from the EDA:
 
 * Outliers were examined but retained, as they represent genuine real-world behavior.
 
-EDA visuals include:
+### EDA visuals include:
 
 * Churn distribution
+
+<img width="471" height="393" alt="image" src="https://github.com/user-attachments/assets/c39488ba-a8b9-40aa-ba2f-d0cb56ee95e7" />
+
+* Complaints
+
+<img width="549" height="393" alt="image" src="https://github.com/user-attachments/assets/d3c22abf-28fc-46b3-87ca-61b4246be5ab" />
 
 * Age group behavior
 
@@ -100,11 +108,17 @@ Two models were implemented and compared:
 
 👉 XGBoost significantly outperformed Logistic Regression, making it the chosen model for final predictions.
 
+<img width="391" height="329" alt="image" src="https://github.com/user-attachments/assets/ef6e45ce-2c43-4701-bb98-be53974b9dc1" />
+
+👉 The confusion matrix confirms that XGBoost accurately classifies both churned and non-churned customers, achieving a strong balance between precision and recall.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🧠 Model Interpretability with SHAP
 
 To understand why the model predicts churn, SHAP (SHapley Additive exPlanations) was used.
+
+<img width="777" height="660" alt="image" src="https://github.com/user-attachments/assets/1832009e-dc25-41d5-bb36-358c8c117c27" />
 
 ### Key findings:
 
