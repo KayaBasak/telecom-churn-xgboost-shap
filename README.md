@@ -1,7 +1,5 @@
 # PREDICTING CUSTOMER CHURN IN TELECOMMUNICATIONS USING LOGISTIC REGRESSION AND XGBOOST 
 
-This project applies machine learning techniques to predict customer churn in the telecommunications industry using behavioral, service-related, and demographic data. The goal is to evaluate the effectiveness of a baseline Logistic Regression model and a more advanced XGBoost classifier, and to interpret model predictions using SHAP in order to identify the key drivers of churn.
-
 This work was completed as the final project for MIE1628: Cloud-Based Data Analytics at the University of Toronto. The project was completed individually and includes exploratory data analysis, model development, performance evaluation, interpretability analysis, and a final report documenting the methodology, results, and insights.
 
 ## 📌 Project Overview
