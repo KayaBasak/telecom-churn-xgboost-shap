@@ -183,10 +183,14 @@ Future work may include adding temporal features, cost-sensitive learning, or de
 
 ## 👤 Author
 
-Basak Kaya
+**Basak Kaya**  
+MEng Student, Mechanical & Industrial Engineering  
+University of Toronto  
 
-MEng – Mechanical & Industrial Engineering
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/basak-kaya-3372b11b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BV4Y8htGGRVaSSy9uZR4zTg%3D%3D)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/KayaBasak)
+[![Medium](https://img.shields.io/badge/Medium-Read%20Article-black?logo=medium)](https://medium.com/@bskky001)
 
-University of Toronto
 
-Specialization: Data Analytics & Machine Learning
+
+
